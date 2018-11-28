@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(222, 236, 229);
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  top: 13%;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 5%;
+  font-size: 5vw;
+  font-family: sans-serif;
+  color: #5A6978;
+  line-height: 4vw;
+  display:table;
+  vertical-align:middle;
+  margin:1%
+}
+
+.text {
+  padding: 10%;
+}
+
+.choice {
+  padding: 15%;
+}
+
+.choice label {
+  width: 100%;
+  font-size: 5vw;
+  left: 100%;
+  position: absolute;
+  color: #5A6978;
+}
+
+.choice input {
+  width: 50px;
+  height: 50px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  color: #fff;
+}
+
+fieldset {
+  border: 0px;
+}
+
+input {
+  width: 85%;
+  left: 85%;
+  position: absolute;
+  font-size: 5vw;
+  line-height: 4vw;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: #fff);
+  color: #5A6978;
+  border-bottom: 2px solid #fff;
+}
+
+select{
+  font-size: 5vw;
+  color: #5A6978;
+  left: 85%;
+  position: absolute;
+}
+
+button {
+  padding: 15px 32px;
+}
+
+.button {
+  margin-top: 5%;
+}
+
+.button {
+  width: 180%;
+  font-size: 6vw;
+  left: 20%;
+  position: relative;
+  background-color: #7ED957;
+  color: #fff
+}
+
+#cancel {
+  background-color: #ccc;
+}
+
+.sideMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgb(135, 233, 179);
+  overflow-x: hidden;
+  padding-top: 25px;
+  transition: 0.5s;
+}
+
+#sideMenuOpen {
+  position: fixed;
+  left: 2%;
+  margin: 5%;
+  background-color: rgb(222, 236, 229);
+}
+
+
+.sideMenu a {
+  padding: 8px 8px 8px 32px;
+  margin: 3vh 3vh 6vh 3vh;
+  text-decoration: none;
+  font-size: 6vw;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideMenu a:hover {
+  color: #406bbb;
+  background-color: rgb(210, 223, 228);
+}
+
+.sideMenu .closeb {
+  width: 6vh;
+  margin-left: 70%;
+}

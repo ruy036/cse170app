@@ -1,0 +1,261 @@
+body {
+  background-color: rgb(222, 236, 229);
+  color: #5A6978;
+  font-family: sans-serif;
+}
+
+  /*code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }*/
+
+  p {
+    margin: auto;
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 6vw;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  span {
+    padding: 5px;
+    background-color: rgb(5, 126, 75);
+    color: white;
+    font-size: 3vw;
+  }
+  span a{
+    text-decoration: none;
+    color: white;
+  }
+
+  table,th{
+
+    border: 1px solid rgb(75, 73, 73);
+    margin:auto;
+    border-collapse: separate;
+    font-size: 3vw;
+
+  }
+
+  #nutrientTable {
+    border:none;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    width:70%;
+  }
+
+  #nutrientTable .tr .th {
+    width: 5%;
+  }
+
+  #nutrientTable tbody .tr {
+    margin-bottom: 1%;
+    border-radius: 20px;
+  }
+
+  #logoutb{
+    text-decoration: underline;
+  }
+
+  .overlayOpen{
+    padding: 15px 32px;
+    background-color: rgb(5, 126, 75);
+    color: white;
+    font-size: 3vw;
+    margin:10px;
+  }
+
+  .sideMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(135, 233, 179);
+    overflow-x: hidden;
+    padding-top: 25px;
+    transition: 0.5s;
+  }
+
+  #sideMenuOpen {
+    position: fixed;
+    left: 2%;
+    margin: 5%;
+    background-color: rgb(222, 236, 229);
+  }
+
+
+  .sideMenu a {
+    padding: 8px 8px 8px 32px;
+    margin: 3vh 3vh 6vh 3vh;
+    text-decoration: none;
+    font-size: 4.85vw;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sideMenu a:hover {
+    color: #406bbb;
+    background-color: rgb(210, 223, 228);
+  }
+
+  .sideMenu .closeb {
+    width: 6vh;
+    margin-left: 70%;
+  }
+
+
+  button {
+    font-size: 6vw;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+  }
+
+
+
+  .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(135, 233, 179);
+    overflow-y: hidden;
+    padding-top: 25px;
+    transition: 0.5s;
+  }
+
+  .overlay a {
+    padding: 8px 8px 8px 10px;
+    margin-bottom: 4%;
+    text-decoration: none;
+    font-size: 3vw;
+    color: white /*rgb(103, 170, 63)*/;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay .closeb {
+    background-color: lightgray;
+    color: white;
+    border-radius: 10px;
+    font-size: 3vw;
+    margin-left: 10%;
+  }
+  .overlay .submit {
+    background-color:rgb(103, 170, 63);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 4.75%;
+  }
+  /*.optionSelect {
+    background-color: rgb(129,129,129);
+  }*/
+
+  .result
+  {
+    text-align: center;
+    width: 30%;
+    visibility: hidden;
+    margin: 4%;
+    margin-left: 6%;
+    color: white;
+    border-radius:10px;
+    background-color: rgb(103, 170, 63);
+  }
+
+  .overlay .result2 button
+  {
+    background-color: rgb(103, 170, 63);
+    margin-left:10%;
+    font-size: 3vw;
+    width: 40%;
+  }
+  .overlay .result2 .shop
+  {
+    background-color:rgb(103, 170, 63);
+    border-radius: 10px;
+    padding: 15px 32px;
+    display: inline;
+    color: white;
+    margin-left: 3%;
+  }
+  .overlay .result2
+  {
+    padding: 1% 1% 1% 1%;
+    margin:1%;
+    text-decoration: none;
+    font-size: 3vw;
+    color: #818181;
+  }
+
+  .overlay .optionSelect {
+    /*background-color: rgb(129,129,129);*/
+    padding: 10px 20px;
+    border-radius:10px;
+    margin-left: 4.75%;
+  }
+
+  .overlay .result2 .foodAdd
+  {
+    color: white;
+  }
+
+  .result:hover{
+    background-color: rgb(5, 126, 75);
+    color: white;
+  }
+
+  #consumedTable {
+    width:70%;
+    text-align: center;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0 .5em;
+  }
+
+  #consumedTable th{
+    border-radius: 10px;
+  }
+
+  #consumedTable td{
+    margin:auto;
+    font-family: sans-serif;
+    border-radius: 10px;
+  }
+
+  .conTableRow {
+    border-radius: 10px;
+  }
+
+  .removeRow {
+    background-color: rgb(211, 84, 84);
+  }
+.rowp {
+    background-color: green;
+    border-radius: 0 10px 10px 0;
+}
+
+.hrow {
+  border-radius: 10px 0 0 10px;
+}
+
+#spacer {
+  background-color: rgb(222, 236, 229);
+  width: 100%;
+  height: 15%;
+}
